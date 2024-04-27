@@ -90,3 +90,9 @@ print(my_nuuuuums)
 
 tuple = tuple({'a': 1, 'bad': [1, 2]})
 print(tuple)
+
+
+hren = ({}, [], (), 'a')
+oleg = (1, 1.2)
+itog = hren + oleg
+print(itog)
