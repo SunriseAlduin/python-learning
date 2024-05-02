@@ -100,3 +100,10 @@ print(l.symmetric_difference(t))
 print((l | t) - (l & t))
 
 # дз
+dz = {1, 2, 3, 4, 5}
+dz.add(6)
+
+dz2 = {1, 2, 7, 8, 9}
+
+dz3 = dz.intersection(dz2)
+print(list(dz3))
