@@ -20,4 +20,14 @@ for n in new_range:
     print(n)
 
 
-    
+mrg = range(5)
+print(mrg)
+print(type(mrg))
+print(mrg[-1])
+
+
+for n in range(2, 7):
+    print(n)
+
+
+print(set(range(12,25, 5)))
