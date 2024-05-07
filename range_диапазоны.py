@@ -31,3 +31,13 @@ for n in range(2, 7):
 
 
 print(set(range(12,25, 5)))
+
+print(mrg.count(13))
+
+my = range(10, 31, 10)
+spisok = []
+
+for n in my:
+    spisok.append(n)
+
+print(spisok)    
