@@ -50,3 +50,17 @@ def dictos2(dict):
 
 print(dictos2(dictic))
 print(dictic)
+
+
+
+
+def merge_list_to_dict(a, b):
+    merged = zip(a, b)
+    itog = dict(merged)
+    return itog
+
+
+al = ['nikita', 'hello', 'au']
+bl = [123, 15, 5]
+
+print(merge_list_to_dict(al, bl))
